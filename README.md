@@ -1,6 +1,6 @@
 # Solution du labo
 
-## git initialisation
+## git initialization
 
 ```git
 git init
@@ -9,7 +9,7 @@ git add .
 git commit -m "chore:"
 ```
 
-## git flow initialisation
+## git flow initialization
 
 ```git
 git flow init
@@ -29,7 +29,7 @@ git commit -m "fix:"
 touch hotfix/refactor"
 git add .
 git commit -m "refactor:"
-git flow hotfix finish
+git flow hotfix finish 1.0.1
 ```
 
 ## start feature branches
@@ -71,7 +71,7 @@ git commit -m "fix:"
 touch refactor
 git add .
 git commit -m "refactor:"
-git flow release finish
+git flow release finish 1.1.0
 ```
 
 ## code and deliver feature f2
