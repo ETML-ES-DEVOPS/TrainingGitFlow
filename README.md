@@ -121,8 +121,8 @@ git log --graph --oneline --decorate --all
 
 ```
 λ git log --graph --oneline --decorate --all
-* ffe3951 (HEAD -> feature/f3) fix:
-* 981d8ff feat:
+* ffe3951 (HEAD -> feature/f3) fix:                               // Question - Est-ce normal que la F3 soit "HEAD" ?
+* 981d8ff feat:                                                   // Réponse dans l'issue "Erreur dans le correction"
 * aaa7e62 test:
 | *   8e23bbf (develop) Merge branch 'feature/f2' into develop
 | |\
@@ -157,3 +157,4 @@ git log --graph --oneline --decorate --all
 |/
 * 3baad53 chore:
 ```
+
